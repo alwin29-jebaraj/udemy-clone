@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    body{
+    font-family: "Gabarito", sans-serif;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.navbar__s1
+{
+    color: #A435F0;
+}
+.navbar__s2
+{
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    width: 100%;
+    border: none;
+    gap: 10px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.catagories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+.catagories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sales img{
+    width: 100%;
+}
+.Course-card1{
+    width: 250px;
+}
+.Course-card1 img{
+    width : 100%;
+    height: 50%;
+}
+.Recommended__container{
+    display: flex ;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topic{
+    padding: 10px;
+    
+}
+.topic__container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.topic__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.most-popular__Container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+}
+.Footercon{
+    background-color: black;
+    color: white;
+    
+    
+}
+.footer__s1 p{
+    margin: 20px;
+}
+.footer__s2 p{
+    margin: 20px;
+}
